@@ -1,0 +1,49 @@
+#+TITLE: Using Github for small teams
+
+* Registering at github
+First, you should register a github account with an
+@isep.fr email *and verify that email*
+(https://github.com/settings/emails) as explained @
+https://github.com/edu under "I'm a student". You should then be able
+to request the ability to create a free private repository at
+https://github.com/edu.
+
+* Creating the github repository and adding collaborators
+Then you have to decide about your github workflow. 
+First of all, one of you should create this new private repository
+under his account, and under the "admin" tab (on the right) select
+the "Collaborators" option on the left and add the of team member as
+a collaborator. Then he will be able to share the repository URL with
+the new collaborator.
+
+* Git usage
+The first thing is to get to grips with git. You can [[http://try.github.com/levels/1/challenges/1][try it online]]
+and [[http://learn.github.com/p/intro.html][follow a tutorial]]. If you feel like it, [[http://git-scm.com/book/][good book]] is freely
+available online. A [[http://gitref.org/][git commands reference]] is also quite handy to
+complement [[http://www.ndpsoftware.com/git-cheatsheet.html][a nice cheatsheet]].
+
+* Git workflow
+Git is very powerful and can scale up to manage *huge* teams distributed
+all over the world. However, it also scales down to just manage
+incremental backups of (text) files. What is changes is not the tool
+but the *workflow*. For a minimal team, I advise to use [[http://scottchacon.com/2011/08/31/github-flow.html][a minimalist
+workflow]].
+
+Both members of the team (the owner of the github repository and the
+collaborator) just clone the repository (they should have a
+"read+write" git url available on the repository page) on their local
+computer and they both should be able to push commits to the original
+github repository.
+
+Don't forget to commit and push you commits *as often as possible* to
+make them available to the other team member. You should also
+resynchronize your local repository by getting the others commits *as
+often as possible*. The preferred way to do it is [[http://kentnguyen.com/development/visualized-git-practices-for-team/][with pull --rebase]].
+
+Should you want to work on specific changes that should not impact
+the main ('master') /branch/, you can make new branches, as explained
+in the documentation on workflows.
+
+* You are *not* alone
+Should you need help, feel free to contact me. And don't forget to
+add bhugueney as a collaborator to your private repositories.
