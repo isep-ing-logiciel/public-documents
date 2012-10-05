@@ -1,0 +1,56 @@
+#+TITLE: Utiliser github avec une petite équipe
+
+* S'inscrire sur Github
+
+En premier lieu, il faut s'inscrire en créant un compte avec son
+adresse mail @isep.fr et *valider cette adresse mail*
+(https://github.com/settings/emails) ainsi qu'expliqué @
+https://github.com/edu à la rubrique "I'm a student". Vous devriez
+pouvoir alors demander la possibilité de créer des repositories
+(dépôts) privés (confidentiels) sur https://github.com/edu.
+
+* Création du repository github et enregistrement des collaborateurs
+L'un des membres de l'équipe doit :
+1. créer le nouveau repository privé ("New Repository") dans le cadre
+   "Repositories" à droite
+2. dans la page de ce nouveau repository, sous l'onglet "admin" en
+   sélectionnant l'option "Collaborators" à gauche
+3. envoyer par mail l'url de la page principale du repository sous
+   github à tous les collaborateurs.
+
+Chacun peut alors cloner le repository depuis github sur sa machine.
+
+* Utilisation de git
+Pour se familiariser avec git, il est possible de [[http://try.github.com/levels/1/challenges/1][l'essayer en ligne]]
+et [[http://learn.github.com/p/intro.html][suivre un tutoriel]]. Si vous en avez le courage, un  [[http://git-scm.com/book/][excellent livre]]
+est disponible gratuitement en ligne. Un  [[http://gitref.org/][site de référence des commandes]] est aussi très pratique en complément d'une
+[[http://www.ndpsoftware.com/git-cheatsheet.html][antisèche]].
+
+* Workflow git
+Git est très puissant et peu passer à l'échelle pour gérer les
+contributions de très grandes équipes distribuées dans le monde
+entier. Cependant, il peut aussi bien être utiliser pour gérer des
+sauvegardes incrémentales de fichiers (texte). Ce qui fait alors la
+différence n'est pas l'outil mais la fa,con de s'en servir,
+le *workflow*. Pour une équipe minimaliste, je recommande  [[http://scottchacon.com/2011/08/31/github-flow.html][un workflow minimaliste]].
+
+Tous les membres de l'équipe (le titulaire du compte github et le(s)
+collaborateur(s)) clone le même repository github (ils devraient avoir
+accès à une URL "read+write" sur la page du repository) sur leur
+ordinateur. Chacun doit alors être capable de /push/ leur /commits/ sur
+le repository github originel.
+
+N'oubliez pas de faire des commits et /push/ ceux-ci *aussi souvent que
+possible* afin que les autres membres de l'équipe y aient accès. Vous
+devrez aussi vous resynchroniser (i.e. mettre à jour) avec le repository
+distant (sur github) *aussi souvent que possible* . La méthode
+recommandée est d'utiliser [[http://kentnguyen.com/development/visualized-git-practices-for-team/][pull --rebase]].
+
+Si vous voulez travailler sur des changements sans perturber la
+/branche/ principale ('master'), vous pouvez créer de nouvelles
+branches, ainsi qu'expliqué dans les documentations sur les workflows.
+
+* Vous n'êtes pas perdu tout seul dans le noir
+
+En cas de besoin, vous pouvez me contacter. Et n'oubliez pas d'ajouter
+bhugueney en tant que 'collaborator' de vos repositories privés.
