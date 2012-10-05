@@ -9,16 +9,18 @@ to request the ability to create a free private repository at
 https://github.com/edu.
 
 * Creating the github repository and adding collaborators
-Then you have to decide about your github workflow. 
-First of all, one of you should create this new private repository
+For a start, one of you should create this new private repository
 under his account, and under the "admin" tab (on the right) select
-the "Collaborators" option on the left and add the of team member as
+the "Collaborators" option on the left and add (each) team member as
 a collaborator. Then he will be able to share the repository URL with
 the new collaborator.
 
+Everybody (github repository owner and collaborators) can (and should)
+then clone the repository on their local computer(s).
+
 * Git usage
 The first thing is to get to grips with git. You can [[http://try.github.com/levels/1/challenges/1][try it online]]
-and [[http://learn.github.com/p/intro.html][follow a tutorial]]. If you feel like it, [[http://git-scm.com/book/][good book]] is freely
+and [[http://learn.github.com/p/intro.html][follow a tutorial]]. If you feel like it, a [[http://git-scm.com/book/][good book]] is freely
 available online. A [[http://gitref.org/][git commands reference]] is also quite handy to
 complement [[http://www.ndpsoftware.com/git-cheatsheet.html][a nice cheatsheet]].
 
@@ -26,8 +28,7 @@ complement [[http://www.ndpsoftware.com/git-cheatsheet.html][a nice cheatsheet]]
 Git is very powerful and can scale up to manage *huge* teams distributed
 all over the world. However, it also scales down to just manage
 incremental backups of (text) files. What is changes is not the tool
-but the *workflow*. For a minimal team, I advise to use [[http://scottchacon.com/2011/08/31/github-flow.html][a minimalist
-workflow]].
+but the *workflow*. For a minimal team, I advise to use [[http://scottchacon.com/2011/08/31/github-flow.html][a minimalist workflow]].
 
 Both members of the team (the owner of the github repository and the
 collaborator) just clone the repository (they should have a
