@@ -9,9 +9,15 @@
   - git
 
 - git en ligne de commande
+- Netbeans
 
 ** II.1101 APP
 - LAMP
+- plug in Netbeans :
+  - UML
+  - php
+  - svn
+  - git
 
 ** II.1102 Fondamentaux de programmation en Java                    :bernard:
 - groovy
@@ -19,6 +25,8 @@
   - green UML
   - processing http://wiki.processing.org/w/Eclipse_Plug_In
   - groovy
+  
+  
 - BlueJ
 
 ** II.2408 Systèmes d'exploitation, administration, virtualisation, Cloud :bernard:
@@ -48,6 +56,13 @@
   - counterclockwise
   - groovy
 
+
+** II.2408 Bases de données avancées: Raja
+- SQL*Plus
+- SQL Developer ou Navicat
+- eXist DB
+- Protege http://protege.stanford.edu/
+- R http://cran.r-project.org/
 
 ** Projets encadrés
 
