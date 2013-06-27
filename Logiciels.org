@@ -55,7 +55,11 @@
 - plug-in eclipse :
   - counterclockwise
   - groovy
-
+  
+** II.2304 Conception et prog orientée objet: Yousra
+Salle B14, B15, B53, B26, Sur Linux
+- Netbeans version 6.7.1 avec plug-in UML
+- LAMP
 
 ** II.2408 Bases de données avancées: Raja
 - SQL*Plus
