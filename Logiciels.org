@@ -1,0 +1,63 @@
+#+TITLE: Logiciels nécessaires
+
+* Postes élèves
+
+** Pour tous les cours
+
+- Eclipse avec au moins les plug-in nécessaires pour :
+  - programmation en Java
+  - git
+
+- git en ligne de commande
+
+** II.1101 APP
+- LAMP
+
+** II.1102 Fondamentaux de programmation en Java                    :bernard:
+- groovy
+- plug in eclipse :
+  - green UML
+  - processing http://wiki.processing.org/w/Eclipse_Plug_In
+  - groovy
+- BlueJ
+
+** II.2408 Systèmes d'exploitation, administration, virtualisation, Cloud :bernard:
+- mettre bash comme shell par défaut pour les élèves
+- emacs 24.X avec org-mode 8.x
+- ssh
+- GNU parallel https://www.gnu.org/software/parallel/
+- bc
+- convert (imagemagick)
+- jhead
+- vagrant
+- puppet
+- ansible
+- une VM locale non persistante avec root accessible aux élèves
+- plug-in eclipse :
+  - openshift :: en fait le plug in peut avoir des problèmes suivant les
+                 versions d'eclipse (ou incompatible avec d'autres plug
+                 in ?). J'avais du utiliser le bundle
+                 https://devstudio.jboss.com/download/6.x.html
+** II.3516 Langages et Compilation
+- groovy
+- gradle
+- clojure
+- maven
+- leiningen 2.x
+- plug-in eclipse :
+  - counterclockwise
+  - groovy
+
+
+** Projets encadrés
+
+Sur les postes élèves, supercollider https://en.wikipedia.org/wiki/SuperCollider
+De quoi faire du dév Android. (plug-in eclipse, émulateur)
+
+* Dépôt de sources
+- faire une VM Gitlab
+- avec Gerrit.
+
+* Serveur BD
+- PostgreSQL récent (au moins 9.2) avec PostGIS.
+- HBase
