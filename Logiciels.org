@@ -68,6 +68,17 @@ Salle B14, B15, B53, B26, Sur Linux
 - Protege http://protege.stanford.edu/
 - R http://cran.r-project.org/
 
+** II.3511 Infrastructures et Services Web: Zakia
+- JDK 7 (http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+- eclipse (http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr2)
+- eclipse maven plugin
+- maven 3.0.5
+- mongoDB 2.4.4
+- tomcat (version 7)
+- H2 database
+- Git (http://git-scm.com/downloads)
+
+
 ** Projets encadrés
 
 Sur les postes élèves, supercollider https://en.wikipedia.org/wiki/SuperCollider
