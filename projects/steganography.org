@@ -20,7 +20,9 @@ encrypted message in an innocuous file such as a picture.
 An Android application should allow the user to seamlessly :
 - input some text message or select a data file
 - take a picture with the camera or select a picture file
-- encrypt the text or data file with symmetric or asymmetric cryptography
+- encrypt the text or data file with symmetric or asymmetric
+  cryptography. In order to minimize the size of the data, if should be
+  (losslessly, obviously) compressed beforehand.
 - embed the encrypted data in the picture
 - post the picture on a public hosting site
 
