@@ -1,0 +1,33 @@
+* Tutor(s)
+- Main tutor :: Bernard Hugueney
+- Image processing :: Maria Trocan
+
+* Keywords
+- Android (camera)
+- Encryption
+- Image processing (steganography)
+
+* Motivation
+As we have recently been reminded by Edward Snowden, the meta-data leaks
+very important information that does compromises privacy of internet
+communications by mail. To solve this problem, one could post encrypted
+messages on public websites. However, posting such a message would be
+incriminating in itself. Hence the need for steganography, to embed the
+encrypted message in an innocuous file such as a picture.
+
+* Specifications
+
+An Android application should allow the user to seamlessly :
+- input some text message or select a data file
+- take a picture with the camera or select a picture file
+- encrypt the text or data file with symmetric or asymmetric cryptography
+- embed the encrypted data in the picture
+- post the picture on a public hosting site
+
+The application should also allow the user to paste the url of an hosted
+picture, or to select a local picture file, and recover the hidden and
+encrypted payload.
+
+As a bonus, the application should strive to use a robust steganography
+scheme in case the hosting site would use a lossy recompression
+algorithm.
