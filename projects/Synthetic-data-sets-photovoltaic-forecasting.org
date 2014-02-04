@@ -1,0 +1,10 @@
+#+TITLE: Synthetic Data Set for distributed photovoltaic forecasting
+
+* Context
+Current research is ongoing to improve photo-voltaic energy production
+forecasting though collaborative distributed algorithms that model
+clouds movements. Real atmospheric measurements are available to assess
+the performance of the algorithm. However, synthetic data sets would be
+useful to make controlled experiments and study when the algorithm if most/least effective.
+
+*

@@ -1,0 +1,26 @@
+#+TITLE: 3D models realistic movements
+
+
+
+* Context
+
+In order to implement state of the art [paper] realistic motion
+planning, one must be able to efficiently handle a very large number
+($\approx 10^5$) of 3D primitives (i.e. triangles) and perform queries
+on them.
+
+* Task
+
+The student should understand the available algorithm and :
+- provide insights on how to enhance it
+- implement the needed data-structures to enable an efficient implementation.
+
+* video
+
+
+https://docs.google.com/a/bernard-hugueney.org/file/d/0B4lYyxxIsKTGVnVNQ3lrcEVQY0k/edit
+
+
+* Bibliography
+
+[paper] Fast computation of task compatible contact conﬁgurations for abitrary virtual creatures

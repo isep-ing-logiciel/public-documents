@@ -1,0 +1,27 @@
+#+TITLE: Additive sound synthesis
+
+
+* Context
+
+[[https://en.wikipedia.org/wiki/Additive_synthesis][Additive synthesis]] allows sound creation through the addition of
+(potentially many) sine waves.  While there are [[http://www.sonicspot.com/guide/synthesistypes.html][other forms of synthesis]]
+, additive is amongst the most expressive but also the most challenging
+ones because of the model's complexity.
+
+
+* Task
+
+The student should understand the available models (e.g. [harmonykit])
+and UI for sound synthesis and improve the state of the art in
+either/both of them.
+
+
+* video
+
+
+https://www.youtube.com/watch?v=bhkdyCPYgLs
+
+
+* Bibliography
+
+[harmonykit] https://github.com/richhickey/harmonikit
