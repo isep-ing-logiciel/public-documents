@@ -13,7 +13,8 @@ ones because of the model's complexity.
 
 The student should understand the available models (e.g. [harmonykit])
 and UI for sound synthesis and improve the state of the art in
-either/both of them.
+either/both of them. It might prove fruitful to study how the state of
+the art evolved since the previous decades [miditalk].
 
 
 * video
@@ -25,3 +26,4 @@ https://www.youtube.com/watch?v=bhkdyCPYgLs
 * Bibliography
 
 [harmonykit] https://github.com/richhickey/harmonikit
+[miditalk] http://webcache.googleusercontent.com/search?q=cache:c0Q0K_qN7_8J:cd.textfiles.com/knowledgemedia/MIDI/ATARI/MIDITALK/MIDITALK.DOC+&cd=2&hl=en&ct=clnk
