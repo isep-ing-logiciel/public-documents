@@ -1,0 +1,40 @@
+#+TITLE: Databases case study for social networks and geolocation web applications
+
+* Use case
+
+We want to store data for web applications that providing the following services to users :
+
+
+- authentication (leveraging exiting online identities e.g. from G+, facebook or github)
+- handling social circle(s) of users
+- adding / editing / removing data linked to user(s), time and locations
+- handling queries on data attributes, users, time and locations
+
+An example app will implement a service similar to http://www.sharewizz.com/ handling social networks so that one can also restrict sharing/searching in a social/local neighborhood.
+
+For instance, a user should be able to store the fact that :
+- she makes available a portable 3D printer (name, short description and picture), to pick up  at her place (street №, city, country) for a given time period, to her social friends and their social friends.
+
+An a user should be able to query to look for :
+- a car
+- available this weekend
+- to pick up at most 10 km away from his current location
+
+Of course, the system should then only provide the answers meeting the social distance criteria of the provider, if any.
+
+
+* Scalability
+
+We want to be WebScale™ and handle Big Data. But the addition of data
+will be orders of magnitude less frequent than queries.
+Keeping track of historical data would be a very nice bonus.
+
+* State of the art
+
+You will make a survey of the state of the art, including but not restricted to :
+- Postgresql and Postgis. Postgresql can be used for SQL and/or document storage !
+- Neo4J
+- HBase
+- Datomic
+
+You will consider the use of [[https://github.com/tinkerpop/blueprints/wiki][Blueprints]] [[http://java.dzone.com/articles/new-tinkerpop-blueprints][for instance with Datomic]].
