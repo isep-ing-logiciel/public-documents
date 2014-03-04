@@ -7,15 +7,27 @@
 In order to implement state of the art [paper] realistic motion
 planning, one must be able to efficiently handle a very large number
 ($\approx 10^5$) of 3D primitives (i.e. triangles) and perform queries
-on them.
+on them. A current implementation is available, but cannot become the
+reference standard software because it relies on non-free software
+for some 3D operations [octree].
 
 * Task
 
 The student should understand the available algorithm and :
 - provide insights on how to enhance it
-- implement the needed data-structures to enable an efficient implementation.
+- implement the needed data-structures in an efficient way.
 
-* video
+* Implementation notes
+
+The preferred technologies for implementation are in increasing order of specificity :
+- C++
+- NT² https://github.com/MetaScale/nt2
+
+Furthermore, the documentation and code samples from http://www.geometrictools.com should be reviewed
+thoroughly [distance].
+
+
+* Video
 
 
 https://docs.google.com/a/bernard-hugueney.org/file/d/0B4lYyxxIsKTGVnVNQ3lrcEVQY0k/edit
@@ -23,4 +35,6 @@ https://docs.google.com/a/bernard-hugueney.org/file/d/0B4lYyxxIsKTGVnVNQ3lrcEVQY
 
 * Bibliography
 
-[paper] Fast computation of task compatible contact conﬁgurations for abitrary virtual creatures
+[paper] Fast computation of task compatible contact conﬁgurations for arbitrary virtual creatures
+[octree] https://en.wikipedia.org/wiki/Octree
+[distance] http://www.geometrictools.com/Documentation/DistancePoint3Triangle3.pdf
