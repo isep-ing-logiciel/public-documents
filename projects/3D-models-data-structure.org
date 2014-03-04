@@ -13,7 +13,7 @@ for some 3D operations [octree].
 
 * Task
 
-The student should understand the available algorithm and :
+The student should understand the available algorithm (used in [video]) and :
 - provide insights on how to enhance it
 - implement the needed data-structures in an efficient way.
 
@@ -26,17 +26,12 @@ The preferred technologies for implementation are in increasing order of specifi
 Furthermore, the documentation and code samples from http://www.geometrictools.com should be reviewed
 thoroughly [distance].
 
-
-* Video
-
-
-https://docs.google.com/a/bernard-hugueney.org/file/d/0B4lYyxxIsKTGVnVNQ3lrcEVQY0k/edit
-
-
 * Bibliography
 
 [paper] Fast computation of task compatible contact conﬁgurations for arbitrary virtual creatures
 
 [octree] https://en.wikipedia.org/wiki/Octree
+
+[video] https://drive.google.com/file/d/0B4lYyxxIsKTGeVlYOXZKOGtpRTA/edit?usp=sharing
 
 [distance] http://www.geometrictools.com/Documentation/DistancePoint3Triangle3.pdf
