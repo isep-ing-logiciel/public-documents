@@ -21,7 +21,9 @@ The student should understand the available algorithm (used in [video]) and :
 
 The preferred technologies for implementation are in increasing order of specificity :
 - C++
-- NT² https://github.com/MetaScale/nt2
+- RTQL8 http://www.cc.gatech.edu/~karenliu/RTQL8.html and NT² https://github.com/MetaScale/nt2
+
+
 
 Furthermore, the documentation and code samples from http://www.geometrictools.com should be reviewed
 thoroughly [distance].
