@@ -36,5 +36,7 @@ https://docs.google.com/a/bernard-hugueney.org/file/d/0B4lYyxxIsKTGVnVNQ3lrcEVQY
 * Bibliography
 
 [paper] Fast computation of task compatible contact conﬁgurations for arbitrary virtual creatures
+
 [octree] https://en.wikipedia.org/wiki/Octree
+
 [distance] http://www.geometrictools.com/Documentation/DistancePoint3Triangle3.pdf
