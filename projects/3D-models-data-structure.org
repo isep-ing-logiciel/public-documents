@@ -30,7 +30,7 @@ thoroughly [distance].
 
 * Bibliography
 
-[paper] Fast computation of task compatible contact conﬁgurations for arbitrary virtual creatures
+[paper] Fast computation of task compatible contact conﬁgurations for arbitrary virtual creatures, Steve Tonneau et al., Graphics Interface 2014 http://people.irisa.fr/Steve.Tonneau/indexpubli.html#
 
 [octree] https://en.wikipedia.org/wiki/Octree
 
